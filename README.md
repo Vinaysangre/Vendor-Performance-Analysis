@@ -1,37 +1,140 @@
-# Vendor Performance Analysis 📊
+# 📊 Vendor Performance Analysis
 
-This project focuses on evaluating and analyzing the performance of different vendors using data-driven insights. It aims to identify the most reliable partners by measuring key performance indicators (KPIs).
+This project focuses on analyzing vendor performance using data-driven insights to evaluate **procurement, sales, inventory, and profitability**. The analysis aims to identify high-performing and underperforming vendors and provide actionable insights that can support better procurement and inventory management decisions.
+
+---
 
 ## 🚀 Overview
-The notebook `Vendors_Performance_Analaysis.ipynb` provides a comprehensive workflow to process vendor data, visualize trends, and generate performance reports. This is essential for businesses to optimize their supply chain and maintain high-quality standards.
+
+The `Vendors_Performance_Analaysis.ipynb` notebook provides an end-to-end workflow for analyzing vendor and product-level performance.
+
+The analysis evaluates **8,500 vendor-product records** and focuses on understanding purchasing efficiency, sales performance, inventory utilization, and profitability.
+
+The project uses business-oriented KPIs to compare vendor performance and identify opportunities for improving procurement decisions, reducing excess inventory, and increasing profitability.
+
+---
 
 ## 🛠️ Tech Stack
-* **Language:** Python
-* **Libraries:** * `Pandas` for data manipulation.
-    * `NumPy` for numerical computations.
-    * `Matplotlib` & `Seaborn` for data visualization.
 
-## 📈 Key Features
-- **Data Cleaning:** Handling missing values and formatting vendor records.
-- **KPI Calculation:** Measuring metrics like lead time, delivery accuracy, and quality scores.
-- **Visual Analysis:** Graphs to compare performance across different vendors and time periods.
-- **Optimization Insights:** Identifying top-performing vendors and areas for improvement.
+- **Language:** Python
+- **Libraries:**
+  - `Pandas` – Data cleaning, transformation, aggregation, and analysis
+  - `NumPy` – Numerical calculations and statistical operations
+  - `Matplotlib` – Data visualization
+  - `Seaborn` – Statistical and business visualizations
+- **Environment:** Jupyter Notebook / Google Colab
 
-## 📂 Project Structure
-- `Vendors_Performance_Analaysis.ipynb`: The main Jupyter Notebook containing the analysis code.
-- `data/` (Optional): Placeholder for datasets used in the analysis.
+---
 
-## 💻 How to Run
-1. Clone this repository.
-2. Ensure you have Jupyter Notebook or VS Code installed.
-3. Install dependencies:
-   ```bash
-   pip install pandas numpy matplotlib seaborn
-   
-This project provides a data-driven framework for evaluating and benchmarking vendor performance. By implementing a multi-criteria decision-making (MCDM) approach, the analysis quantifies vendor reliability based on delivery efficiency and quality standards. This tool enables procurement teams to make informed, objective decisions when selecting or renewing vendor contracts.
+## 📂 Dataset & Analysis
 
-●	Analyzed 8,500 vendor-product records to evaluate procurement, sales, inventory, and profitability performance.
+The analysis works with vendor-product level data containing information related to **purchases, sales, inventory, and profitability**.
 
-●	Used Sales-to-Purchase Ratio to identify vendors with poor conversion of purchases into sales.
+The dataset was analyzed to understand how effectively vendors convert purchased inventory into sales and profit.
 
-●	Created business KPIs Profit Margin, Stock Turnover, Unsold Inventory)
+The project evaluates vendor performance using multiple business metrics instead of relying on a single KPI.
+
+---
+
+## 🧹 Data Cleaning & Preparation
+
+The project includes data preparation and transformation steps to make the vendor data suitable for analysis.
+
+Key activities include:
+
+- Handling missing and inconsistent values
+- Data type conversion
+- Removing unnecessary records
+- Aggregating vendor and product-level information
+- Creating calculated business metrics
+- Preparing the dataset for performance comparison and visualization
+
+---
+
+## 📈 Key Business KPIs
+
+Several business KPIs were created to evaluate vendor performance:
+
+### 💰 Profit Margin
+
+Profit Margin measures the profitability generated from vendor-related sales and helps identify vendors contributing higher margins.
+
+### 🔄 Stock Turnover
+
+Stock Turnover evaluates how efficiently inventory is converted into sales. A higher turnover generally indicates better inventory movement.
+
+### 📊 Sales-to-Purchase Ratio
+
+Sales-to-Purchase Ratio compares sales generated against purchase value.
+
+This KPI helps identify vendors where a relatively high purchase investment is not translating into proportional sales performance.
+
+### 📦 Unsold Inventory
+
+Unsold Inventory helps identify vendors and products with excess stock and highlights potential inventory holding and working-capital concerns.
+
+---
+
+## 🔍 Vendor Performance Analysis
+
+The analysis compares vendors based on **sales performance, purchase contribution, profitability, inventory movement, and sales-to-purchase efficiency**.
+
+The objective is to identify:
+
+- High-performing vendors
+- Underperforming vendors
+- Vendors with high purchase contribution but weak sales conversion
+- Vendors with better profit margins
+- Vendors with inefficient stock turnover
+- Vendors contributing to excess or unsold inventory
+
+---
+
+## 💡 Key Insights
+
+The analysis provides several business-oriented insights into vendor performance.
+
+A total of **8,500 vendor-product records** were analyzed to understand procurement, sales, inventory, and profitability performance.
+
+The **Sales-to-Purchase Ratio** was used to identify vendors where purchasing activity was relatively high compared with the sales generated, helping highlight potential procurement inefficiencies.
+
+Business KPIs such as **Profit Margin, Stock Turnover, and Unsold Inventory** were created to evaluate profitability and inventory efficiency from multiple perspectives.
+
+These insights can help procurement teams make more informed decisions when evaluating vendor relationships and identifying areas for improvement.
+
+---
+
+## 📊 Visual Analysis
+
+The project uses Python visualization libraries to compare vendor performance and identify patterns across the dataset.
+
+Visual analysis helps evaluate:
+
+- Vendor-wise sales performance
+- Purchase contribution
+- Profitability
+- Stock turnover
+- Sales-to-Purchase Ratio
+- Unsold inventory
+- Vendor performance comparisons
+
+The visualizations make it easier to identify trends, outliers, and vendors requiring further investigation.
+
+---
+
+## 🎯 Business Objective
+
+The primary objective of this project is to provide a **data-driven framework for vendor evaluation and benchmarking**.
+
+The analysis can support businesses in:
+
+- Identifying reliable and high-performing vendors
+- Detecting underperforming vendors
+- Improving procurement decisions
+- Reducing excess inventory
+- Improving inventory turnover
+- Monitoring profitability
+- Evaluating purchase-to-sales efficiency
+- Supporting vendor negotiation and contract decisions
+
+---
